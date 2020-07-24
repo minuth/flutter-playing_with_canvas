@@ -1,10 +1,7 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:playing_with_canvas/painter/circle_star_painter.dart';
-import 'package:playing_with_canvas/painter/circle_travell_painter.dart';
 import 'package:playing_with_canvas/widget/circle_travell.dart';
+import 'package:playing_with_canvas/widget/google_icon.dart';
+import 'package:playing_with_canvas/widget/pei_chart.dart';
 
 void main() {
   runApp(MyApp());
@@ -41,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: CircleTravell(),
+      body: PeiChart(),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         tooltip: 'Animate',

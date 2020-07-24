@@ -20,6 +20,7 @@ class CircleStartPainter extends CustomPainter {
 
     for (var i = 0; i < n; i++) {
       final radian = Utils.degreeToRadian(i * degreePerCirlce);
+
       final endPoint =
           Offset(cos(radian) * radius, sin(radian) * radius) + centerPoint;
 
