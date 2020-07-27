@@ -13,6 +13,7 @@ class PeiChartPainter extends CustomPainter {
     final rect = Rect.fromCircle(center: _centerPoint, radius: radius);
 
     final chartValues = [100.4, 150, 50, 50, 60.45, 40];
+
     final totalValue = chartValues.reduce((a, b) => a + b);
     double currentDegree = 0;
     for (var value in chartValues) {
