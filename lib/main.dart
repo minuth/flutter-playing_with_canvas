@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:playing_with_canvas/widget/circle_frame.dart';
 import 'package:playing_with_canvas/widget/circle_travell.dart';
+import 'package:playing_with_canvas/widget/galaxy.dart';
 import 'package:playing_with_canvas/widget/google_icon.dart';
 import 'package:playing_with_canvas/widget/pei_chart.dart';
 
@@ -39,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: CircleFrame(),
+      body: Galaxy(),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         tooltip: 'Animate',
